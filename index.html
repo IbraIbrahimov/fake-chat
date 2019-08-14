@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="msg-header">
+            <div class="msg-header-img">
+                <img src="img/self.png" >
+            </div>
+            <div class="active">
+                <h4>Ibrahim</h4>
+                
+            </div>
+            <div class="header-icons">
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-video-camera"></i>
+                    <i class="fa fa-info-circle"></i>
+      
+            </div>
+        </div>
+    
+      <div class="chatbox">
+    
+          
+    
+    
+        <div class="chatlogs" id="chatlogs">
+    
+          <li class="chat friend" id="li">
+            <div class="user-photo"><img src="img/friend.png"></div>
+            <p class="chat-message" id="chat">Salam</p>
+            <!-- <span class="name" id="name">Ibrahim</span> -->
+            
+          </li>
+    
+          <li class="chat self">
+            <div class="user-photo"><img src="img/self.png"></div>
+            <p class="chat-message" id="chat">Aleykum salam! <span class="messageTime">16:09</span> </p>
+            
+          </li>
+         
+        </div>
+        <div class="chat-form">
+          <ul id="message"></ul>
+          <textarea name="textarea" id="textarea"  ></textarea>
+          <button id="btn" onclick="chatlog()"><i class="fa fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="container1">
+        <div class="msg-header1">
+            <div class="msg-header-img1">
+                <img src="img/friend.png" >
+            </div>
+            <div class="active1">
+                <h4>Oleq</h4>
+                
+            </div>
+            <div class="header-icons1">
+                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-video-camera"></i>
+                    <i class="fa fa-info-circle"></i>
+      
+            </div>
+        </div>
+    
+      <div class="chatbox1">
+    
+        <div class="chatlogs1" id="chatlogs1">
+    
+          <li class="chat1 friend1" id="li">
+            <div class="user-photo1"><img src="img/friend.png"></div>
+            <p class="chat-message1" id="chat1">Salam</p>
+            <span id=name-1></span>
+            
+          </li>
+    
+          <li class="chat1 self1">
+            <div class="user-photo1"><img src="img/self.png"></div>
+            <p class="chat-message1" id="chat">Aleykum salam! <span class="messageTime">16:09</span> </p>
+            
+          </li>
+         
+        </div>
+        <div class="chat-form1">
+          
+          <textarea name="textarea" id="textarea1"  ></textarea>
+          <button id="btn1" onclick="chatlog1()"><i class="fa fa-paper-plane"></i></button>
+        </div>
+      </div>
+      </div>
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
